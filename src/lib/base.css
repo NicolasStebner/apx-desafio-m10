@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+:root{
+  --azul:#4F7CAC;
+  --celeste: #91E5F6;
+  --naranja: #EDAE49;
+  --azul-oscuro: #201E50;
+  --fucsia: #E75A7C;
+}
