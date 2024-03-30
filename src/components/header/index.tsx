@@ -18,7 +18,7 @@ const Header = () =>{
         <VentanaEmergencia>
           <VentanaCerrar onClick={toggleVentana}>X</VentanaCerrar>
           <VentanaContenedorOpciones>
-            <Title onClick={()=> router.push('/login')}>Ingresar</Title>
+            <Title onClick={()=> router.push('/signin')}>Ingresar</Title>
             <Title onClick={()=> router.push('/profile')}>Mi perfil</Title>
             <Title onClick={()=> router.push('/search')}>Buscar</Title>
           </VentanaContenedorOpciones>
