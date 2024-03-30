@@ -25,9 +25,11 @@ const Header = () =>{
         </VentanaEmergencia>
       :
       <Contenedor>
-          <Icon></Icon>
+          <div onClick={()=>router.push('/')}>
+            <Icon></Icon>
+          </div>
           <IngresarContenedor>
-            <Button background="var(--fucsia)">Ingresar</Button>
+            <Button background="var(--fucsia)" onClick={()=>router.push('/signin')}>Ingresar</Button>
           </IngresarContenedor>
           <Hamburguer onClick={toggleVentana}>
             <i className="fa-solid fa-bars fa-2xl"></i>
