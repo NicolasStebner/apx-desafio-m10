@@ -1,0 +1,20 @@
+.contenedor{
+  padding: 20px 40px;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  color: black;
+}
+
+
+@media (min-width: 960px){
+  .contenedor{
+    max-width: 750px;
+    margin: 150px auto;
+    flex-direction: row;
+  }
+  .contenedorInfo{
+    max-width: 600px;
+  }
+}

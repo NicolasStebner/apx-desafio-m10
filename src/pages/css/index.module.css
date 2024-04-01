@@ -1,0 +1,43 @@
+.contenedorSearch{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  height: 50vh;
+  text-align: center;
+  padding: 40px 10px;
+  margin: 0 auto;
+}
+
+.contenedorProductosDestacados{
+  background-color: var(--fucsia);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px 30px;
+}
+
+.contenedorCards{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width : 425px){
+  .contenedorSearch{
+    max-width: 350px;
+    margin-top: 20px;
+  }
+
+  .contenedorProductosDestacados{
+    color: black;
+    background-color: var(--celeste);
+  }
+
+  .contenedorCards{
+    flex-direction: row;
+  }
+}
