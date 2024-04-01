@@ -7,7 +7,7 @@ export const Contenedor = styled.footer`
   height: 100%;
   background-color: black;
   color: white;
-  padding: 10px;
+  padding: 60px;
   gap: 20px;
 `
 
@@ -25,9 +25,12 @@ export const OnlyInfo = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  gap: 7px;
+  gap: 10px;
 `
 
-export const Redirect = styled.p`
+export const Redirect = styled.div`
   margin: 0;
+  display: flex;
+  gap: 7px;
+  align-items: center;
 `

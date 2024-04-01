@@ -33,6 +33,7 @@ export const VentanaEmergencia = styled.div`
   display: flex;
   flex-direction: column;
   position: fixed;
+  top: 0;
   align-items: center;
   background-color: black;
   padding: 20px;
@@ -47,5 +48,8 @@ export const VentanaCerrar = styled.div`
 `
 
 export const VentanaContenedorOpciones = styled.div`
-  margin:auto 0;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 `

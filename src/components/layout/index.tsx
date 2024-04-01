@@ -1,12 +1,16 @@
 import Footer from "@/components/footer"
 import Header from "@/components/header"
+import { Contenedor } from "./styled"
+import { Body } from "../body"
 
 const Layout = ({children}: any) =>{
-  return <>
+  return <Contenedor>
     <Header></Header>
-      {children}
+      <Body>
+        {children}
+      </Body>
     <Footer></Footer>
-  </>
+  </Contenedor>
 }
 
 export default Layout
